@@ -27,6 +27,12 @@ e.g. `./aws-api-import.sh --create path/to/swagger.json`
 
 e.g. `./aws-api-import.sh --update API_ID --deploy STAGE_NAME path/to/swagger.yaml`
 
+#### Run import via docker
+
+[Docker repository](https://registry.hub.docker.com/u/warnergodfrey/aws-apigateway-swagger/)
+
+e.g. `docker run -i -t -v /path/to/swagger.json:/var/app/swagger.json -v ~/.aws:/root/.aws warnergodfrey/aws-apigateway-swagger -c /var/app/swagger.json`
+
 ### API Gateway Swagger Extension Example
 
 You can fully define an API Gateway API in Swagger using the x-amazon-apigateway-auth and x-amazon-apigateway-integration extensions.
