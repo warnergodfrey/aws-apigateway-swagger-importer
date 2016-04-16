@@ -1,3 +1,9 @@
+IMPORTANT!
+==========
+
+This project has been Superseded now that the [Amazon API Gateway Supports Swagger Definition Import](https://aws.amazon.com/about-aws/whats-new/2016/04/amazon-api-gateway-supports-swagger-definition-import/)
+
+
 Amazon API Gateway Swagger Importer
 =============================
 
